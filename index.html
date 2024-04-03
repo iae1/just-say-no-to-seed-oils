@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>No Sign</title>
+    <style>
+      .no-sign-border {
+        width: 240px;
+        height: 240px;
+        margin: 50px;
+        border: 20px solid rgb(57, 123, 77);
+        border-radius: 50%;
+        transform: rotate(-25deg);
+      }
+      .no-sign {
+        border: 20px solid white;
+        background-color: rgb(57, 123, 77);
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .no-sign .diagonal-bar {
+        background-color: #ffffff; /* White color */
+        height: 24px; /* Height of the diagonal bar */
+        width: 200px; /* Width of the diagonal bar to match the parent div */
+      }
+      .big-text {
+        margin-block: 0;
+        font-family: 'Signika', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        color: white;
+        font-size: 60px;
+        font-style: normal;
+        line-height: 21px;
+        font-variation-settings: 'GRAD' 0;
+        margin-top: 30px;
+        margin-bottom: 20px;
+      }
+      .big-text.big-text-bottom {
+        margin-top: 14px;
+        margin-bottom: 0;
+        line-height: 21px;
+      }
+      .little-text {
+        margin-block: 0;
+        font-family: 'Signika', sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        color: white;
+        font-size: 15px;
+        font-style: normal;
+        font-variation-settings: 'GRAD' 0;
+        margin-top: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="no-sign-border">
+      <div class="no-sign">
+        <h1 class="big-text">Just</h1>
+        <div class="diagonal-bar"></div>
+        <h1 class="big-text big-text-bottom">say no</h1>
+        <h2 class="little-text">(to seed oils)</h2>
+      </div>
+    </div>
+  </body>
+</html>
